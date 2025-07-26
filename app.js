@@ -16,7 +16,7 @@ var app = express();
 
 
 
-mongoose.connect("mongodb+srv://tanphuc123:grrqwhETu00ehhng@cluster0.hhpumab.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://tanphuc123:39Sge4gPxL8M3yds@cluster0.hhpumab.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("Connected to DB"))
   .catch((err) => console.log(`Connection Error: ${err}`));
 
